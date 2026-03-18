@@ -5,3 +5,4 @@ Currently it contains :
   - Design Parking Lot System
   - Design Rate Limiter (Naive Sliding Window)
   - Design Flight Management System
+  - Thread Safe Singleton LRU Cache
