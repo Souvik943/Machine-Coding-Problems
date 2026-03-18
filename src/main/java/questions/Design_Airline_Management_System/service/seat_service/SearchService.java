@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class SearchService {
-    private InMemoryDB inMemoryDB;
+    private final InMemoryDB inMemoryDB;
 
     public SearchService(InMemoryDB inMemoryDB) {
         this.inMemoryDB = inMemoryDB;

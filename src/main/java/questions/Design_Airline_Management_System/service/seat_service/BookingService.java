@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookingService {
-    private InMemoryDB inMemoryDB;
+    private final InMemoryDB inMemoryDB;
 
     public BookingService(InMemoryDB inMemoryDB) {
         this.inMemoryDB = inMemoryDB;
